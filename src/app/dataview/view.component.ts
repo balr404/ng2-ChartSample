@@ -11,7 +11,6 @@ export class ViewComponent {
     public age: number;
     public data: any;
    
-    public chartData: any;
     public chartType: string= 'pie';
     
     constructor() {
@@ -25,11 +24,5 @@ export class ViewComponent {
             { label: 'Men', value: '3720' }
         ];
     
-        this.chartData = [
-            { label: 'Teenagers', value: '10123' },
-            { label: 'Senior', value: '8910' },
-            { label: 'Women', value: '7819' },
-            { label: 'Men', value: '3720' }
-        ];
     }
 }
