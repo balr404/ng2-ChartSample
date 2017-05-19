@@ -1,0 +1,13 @@
+<canvas baseChart
+          [data]        =  "customChartData"
+          [labels]      =  "chartLabels"
+          [chartType]   =  "type"
+          [colors]      =  "chartColors"
+          (chartHover)  =  "chartHovered($event)"
+          (chartClick)  =  "chartClicked($event)">
+</canvas>
+
+<span> {{ chartLabels }} </span> <br>
+<span> {{ type }} </span>
+
+<span> {{ customChartData }} </span>
